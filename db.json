@@ -1,0 +1,118 @@
+{
+	"categories": [
+	  {
+		"id": "5c9cdf59-a820-43c4-a487-b10d5440a724",
+		"categoryName": "Bills"
+	  },
+	  {
+		"id": "7cde3bda-5182-45de-9d63-7962433196ad",
+		"categoryName": "Fun Stuff"
+	  },
+	  {
+		"id": "b44f37b2-6f86-4a37-9ed5-65291f2e742c",
+		"categoryName": "Groceries"
+	  },
+	  {
+		"id": "8193c8c9-30c7-467e-bb0b-c922c31f934b",
+		"categoryName": "Home Stuff"
+	  },
+	  {
+		"id": "8b331294-3279-4c40-a046-94a62e6582ea",
+		"categoryName": "Subscriptions"
+	  },
+	  {
+		"id": "8303d41f-c532-44ef-9099-d2ddd7d07474",
+		"categoryName": "Transpo"
+	  },
+	  {
+		"id": "ec88f199-05d8-4bf0-b1a1-b74e6ffd6c7c",
+		"categoryName": "Vacation Travel"
+	  }
+	],
+	"users": [
+	  {
+		"id": "af2b1549-e908-4a19-b679-3263974518d0",
+		"username": "mdaguillo",
+		"email": "user1@example.com"
+	  },
+	  {
+		"id": "98cbbb99-154d-457c-9a19-35a290419e40",
+		"username": "cyochum",
+		"email": "user2@example.com"
+	  }
+	],
+	"expenses": [
+	  {
+		"id": "2597dd0b-a329-45f4-94c9-1117d8f6b94e",
+		"description": "Nytimes monthly",
+		"amount": 18.27,
+		"dateCreated": "2024-01-19T00:00:00",
+		"isPaid": false,
+		"categoryId": "8b331294-3279-4c40-a046-94a62e6582ea",
+		"expenseParticipants": [
+		  {
+			"userId": "af2b1549-e908-4a19-b679-3263974518d0",
+			"amountOwed": -9.14
+		  },
+		  {
+			"userId": "98cbbb99-154d-457c-9a19-35a290419e40",
+			"amountOwed": 9.14
+		  }
+		]
+	  },
+	  {
+		"id": "53b0119d-703f-4900-8054-bbf5f66e7912",
+		"description": "Hbo max ",
+		"amount": 17.11,
+		"dateCreated": "2024-01-25T00:00:00",
+		"isPaid": false,
+		"categoryId": "8b331294-3279-4c40-a046-94a62e6582ea",
+		"expenseParticipants": [
+		  {
+			"userId": "af2b1549-e908-4a19-b679-3263974518d0",
+			"amountOwed": 8.14
+		  },
+		  {
+			"userId": "98cbbb99-154d-457c-9a19-35a290419e40",
+			"amountOwed": -8.14
+		  }
+		]
+	  },
+	  {
+		"id": "d1f0191c-8262-4ef1-8662-e7e4787111fe",
+		"description": "Rival Fitness",
+		"amount": 198.44,
+		"dateCreated": "2024-01-22T00:00:00",
+		"isPaid": false,
+		"categoryId": "5c9cdf59-a820-43c4-a487-b10d5440a724",
+		"expenseParticipants": [
+		  {
+			"userId": "af2b1549-e908-4a19-b679-3263974518d0",
+			"amountOwed": 89.3
+		  },
+		  {
+			"userId": "98cbbb99-154d-457c-9a19-35a290419e40",
+			"amountOwed": -89.3
+		  }
+		]
+	  },
+	  {
+		"id": "7fb25cf5-70e2-447a-8cb3-eb08c973edcb",
+		"description": "Spotify",
+		"amount": 16.53,
+		"dateCreated": "2024-01-22T00:00:00",
+		"isPaid": false,
+		"categoryId": "8b331294-3279-4c40-a046-94a62e6582ea",
+		"expenseParticipants": [
+		  {
+			"userId": "af2b1549-e908-4a19-b679-3263974518d0",
+			"amountOwed": -9.09
+		  },
+		  {
+			"userId": "98cbbb99-154d-457c-9a19-35a290419e40",
+			"amountOwed": 9.09
+		  }
+		]
+	  }
+	]
+}
